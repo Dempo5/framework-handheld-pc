@@ -1,4 +1,4 @@
-﻿# Framework Handheld Gaming PC
+# Framework Handheld Gaming PC
 
 A custom handheld gaming PC built around a Framework 13 mainboard, custom controller electronics, and a custom-designed enclosure.
 
@@ -31,7 +31,8 @@ A custom handheld gaming PC built around a Framework 13 mainboard, custom contro
 - [x] Learn breadboard connections
 - [x] Test tactile button with multimeter
 - [x] Read button presses using GPIO0
-- [ ] Read analog joystick inputs
+- [x] Read analog joystick inputs with ADS1219 (both sticks, four axes)
+- [x] Test both joystick click switches (GP0 and GP1)
 - [ ] Test multiple buttons
 - [ ] Test analog triggers
 - [ ] Test rumble motors
@@ -40,6 +41,8 @@ A custom handheld gaming PC built around a Framework 13 mainboard, custom contro
 ## Build Logs
 
 - [October 30, 2026 - First Button Input](build-logs/2026-10-30-first-button-input.md)
+- [October 30, 2026 - First Analog Joystick](build-logs/2026-10-30-joystick-xy.md)
+- [November 1, 2026 - Dual Joystick ADS1219 Prototype](build-logs/2026-11-01-dual-joystick-ads1219.md)
 
 ## Tools
 
